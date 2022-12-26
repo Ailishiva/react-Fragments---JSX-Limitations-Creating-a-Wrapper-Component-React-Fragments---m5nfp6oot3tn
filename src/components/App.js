@@ -21,6 +21,7 @@ const App = () => {
 
   const onInputChange = (e) => {
     setValue(e.target.value);
+  // console.log(h);
   };
 
   return (

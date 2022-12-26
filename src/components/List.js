@@ -5,7 +5,8 @@ import ListItems from './ListItems';
   return(
     // code here
     
-      <ListItems  />
+      
+     listx.map((value)=> <ListItems valuex={value}/>)
     
     
   )
